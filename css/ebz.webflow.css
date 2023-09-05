@@ -1,0 +1,746 @@
+.w-layout-grid {
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: grid;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.body {
+  background-color: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(to right, #634abe, #8a00a0);
+}
+
+.nav-link {
+  color: #fff;
+  text-align: center;
+  text-transform: none;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  display: none;
+}
+
+.nav-link:hover {
+  color: rgba(255, 255, 255, .3);
+  font-weight: 500;
+}
+
+.nav-link.w--current {
+  color: #0f0;
+  letter-spacing: .1em;
+  font-size: 1.5vh;
+  font-weight: 700;
+}
+
+.nav-link.w--current:hover {
+  color: rgba(255, 255, 255, .3);
+  font-weight: 700;
+}
+
+.link-block {
+  text-decoration: none;
+}
+
+.navbar {
+  color: #745fc1;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0);
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  position: fixed;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: 0%;
+}
+
+.nav-menu {
+  color: #fff;
+  background-color: #745fc1;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  display: flex;
+}
+
+.menu-button {
+  color: #fff;
+  text-align: right;
+  display: block;
+  position: fixed;
+  top: 0%;
+  bottom: auto;
+  left: auto;
+  right: 0%;
+}
+
+.menu-button.w--open {
+  background-color: #745fc1;
+}
+
+.container {
+  height: 100vh;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  display: flex;
+}
+
+.nav-link-2 {
+  color: #fff;
+  letter-spacing: .1em;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-family: Lato, sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  display: block;
+}
+
+.nav-link-2:hover {
+  font-weight: 900;
+}
+
+.nav-link-2.w--current {
+  color: #fff;
+  letter-spacing: .1em;
+  font-family: Lato, sans-serif;
+  font-weight: 700;
+}
+
+.nav-link-2.w--current:hover {
+  font-weight: 900;
+}
+
+.nav-icon {
+  height: 24px;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: static;
+}
+
+.logo {
+  max-width: 80%;
+}
+
+.nav-icon-2 {
+  width: 32px;
+  height: 32px;
+  max-width: 32px;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: static;
+}
+
+.columns {
+  width: 90%;
+  height: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  display: flex;
+}
+
+.slider {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0);
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.slide {
+  background-image: url('../images/VanityZo2020Headshot_002-2.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.div-block {
+  width: 100vw;
+  height: 100vh;
+}
+
+.slide-2 {
+  background-image: url('../images/ByeByeCoverFINAL2.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.heading {
+  color: #fff;
+  text-transform: none;
+  margin-bottom: 0;
+  font-family: Inter, sans-serif;
+  font-size: 4em;
+  font-weight: 600;
+}
+
+.heading-2 {
+  color: #fff;
+  margin-top: 0;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.paragraph {
+  color: #fff;
+  font-family: Inter, sans-serif;
+}
+
+.slide-3 {
+  background-image: url('../images/VanityZo2020Headshot003.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.slide-4 {
+  background-image: url('../images/VZportraitnew.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.slide-5 {
+  background-image: url('../images/vampirezo-final.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.link {
+  color: #fff;
+}
+
+.link-2 {
+  color: #fff;
+  font-size: 28px;
+}
+
+.video {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.div-block-2 {
+  width: 75%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.heading-copy {
+  color: #fff;
+  text-transform: none;
+  color: #fff;
+  text-transform: none;
+  margin-bottom: 0;
+  font-family: Inter, sans-serif;
+  font-size: 4em;
+  font-weight: 600;
+}
+
+.heading-3 {
+  color: #fff;
+  text-transform: none;
+  margin-bottom: 20px;
+  font-family: Inter, sans-serif;
+  font-size: 3em;
+  font-weight: 600;
+}
+
+.slider-2 {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  position: relative;
+}
+
+.div-block-3 {
+  width: 100vw;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.video-2 {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slide-7 {
+  background-color: rgba(0, 0, 0, 0);
+  position: static;
+}
+
+.video-3 {
+  background-color: rgba(0, 0, 0, 0);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.div-block-4 {
+  padding-bottom: 42px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.div-block-5 {
+  padding-bottom: 42px;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.link-block-2 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: block;
+}
+
+.link-block-3 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.rich-text-block {
+  color: #fff;
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+}
+
+.grid {
+  width: 90%;
+  grid-template-columns: 1.75fr 1fr;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rich-text-block-2 {
+  color: #fff;
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+}
+
+.heading-4 {
+  color: #fff;
+  text-transform: none;
+  margin-bottom: 20px;
+  font-family: Inter, sans-serif;
+  font-size: 3em;
+  font-weight: 600;
+}
+
+.link-block-4 {
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  display: block;
+}
+
+.slide-5-copy {
+  background-image: url('../images/MV5BZTA2MjMxNDItMjE1ZS00OGIxLWJlYjYtYTJlNzNjOTAwNzBiXkEyXkFqcGdeQXVyMTE5NTA0NjY1._V1_.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+@media screen and (max-width: 991px) {
+  .body {
+    background-color: #745fc1;
+  }
+
+  .icon {
+    color: #fff;
+  }
+
+  .nav-link {
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    display: none;
+  }
+
+  .link-block {
+    text-decoration: none;
+  }
+
+  .nav-menu {
+    background-color: #745fc1;
+    margin-top: 0%;
+  }
+
+  .menu-button {
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed;
+    top: 0%;
+    bottom: auto;
+    left: auto;
+    right: 0%;
+  }
+
+  .nav-link-2 {
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 13px;
+    text-decoration: none;
+    display: flex;
+  }
+
+  .slider {
+    height: 50vh;
+    padding-top: 5%;
+    padding-bottom: 0%;
+  }
+
+  .div-block {
+    height: auto;
+  }
+
+  .div-block-2 {
+    width: 95%;
+  }
+
+  .grid {
+    grid-template-columns: 1.75fr;
+  }
+
+  .link-block-4 {
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .heading {
+    margin-top: 0;
+  }
+
+  .div-block-2 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  h2 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+
+  .icon {
+    color: #fff;
+    border: 1px #fff;
+  }
+
+  .navbar {
+    justify-content: center;
+    top: 0%;
+    bottom: auto;
+    left: 0%;
+    right: 0%;
+  }
+
+  .nav-menu {
+    margin-top: 0%;
+  }
+
+  .menu-button {
+    background-color: rgba(0, 0, 0, 0);
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+    position: fixed;
+    top: 0%;
+    bottom: auto;
+    left: auto;
+    right: 0%;
+  }
+
+  .container {
+    height: 40vh;
+    align-self: center;
+  }
+
+  .nav-icon, .nav-icon-2 {
+    margin-top: 3%;
+  }
+
+  .slider {
+    width: 95vw;
+    height: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .slide {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .heading-2 {
+    font-size: 16px;
+  }
+
+  .paragraph {
+    font-size: 12px;
+  }
+
+  .link-2 {
+    font-size: 24px;
+  }
+
+  .heading-3 {
+    font-size: 2em;
+  }
+
+  .div-block-4 {
+    padding-bottom: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .grid {
+    width: 95%;
+    padding-top: 10%;
+  }
+
+  .left-arrow, .right-arrow {
+    width: 40px;
+  }
+
+  .heading-4 {
+    margin-bottom: 0;
+    font-size: 2em;
+  }
+
+  .icon-3, .icon-4 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .left-arrow-2 {
+    width: 10%;
+    margin-left: -10px;
+    padding-left: 0;
+  }
+
+  .right-arrow-2 {
+    width: 10%;
+  }
+}
+
+#w-node-_2e541812-8c15-2d86-a80e-6fa5d17fc472-28e2ef9b {
+  align-self: center;
+  justify-self: center;
+}
+
+#w-node-_90f32739-8e81-bd1c-919a-191c139f3216-28e2ef9b {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+  align-self: center;
+  justify-self: center;
+}
+
+@media screen and (max-width: 479px) {
+  #w-node-_2e541812-8c15-2d86-a80e-6fa5d17fc472-28e2ef9b {
+    grid-area: span 1 / span 1 / span 1 / span 1;
+    align-self: center;
+    justify-self: center;
+  }
+}
+
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-ThinItalic.woff2') format('woff2'), url('../fonts/Inter-ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-Thin.woff2') format('woff2'), url('../fonts/Inter-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-MediumItalic.woff2') format('woff2'), url('../fonts/Inter-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-Light.woff2') format('woff2'), url('../fonts/Inter-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-LightItalic.woff2') format('woff2'), url('../fonts/Inter-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-Black.woff2') format('woff2'), url('../fonts/Inter-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-SemiBoldItalic.woff2') format('woff2'), url('../fonts/Inter-SemiBoldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-SemiBold.woff2') format('woff2'), url('../fonts/Inter-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-Medium.woff2') format('woff2'), url('../fonts/Inter-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter roman';
+  src: url('../fonts/Inter-roman.var.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-ExtraLight.woff2') format('woff2'), url('../fonts/Inter-ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-Regular.woff2') format('woff2'), url('../fonts/Inter-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-ExtraLightItalic.woff2') format('woff2'), url('../fonts/Inter-ExtraLightItalic.woff') format('woff');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-Italic.woff2') format('woff2'), url('../fonts/Inter-italic.var.woff2') format('woff2'), url('../fonts/Inter-Italic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-ExtraBold.woff2') format('woff2'), url('../fonts/Inter-Bold.woff2') format('woff2'), url('../fonts/Inter-ExtraBold.woff') format('woff'), url('../fonts/Inter-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-BoldItalic.woff2') format('woff2'), url('../fonts/Inter-ExtraBoldItalic.woff2') format('woff2'), url('../fonts/Inter-ExtraBoldItalic.woff') format('woff'), url('../fonts/Inter-BoldItalic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-BlackItalic.woff2') format('woff2'), url('../fonts/Inter-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'TitleGothic';
+  src: url('../fonts/fashertitle_black-webfont.woff2') format('woff2'), url('../fonts/fashertitle_black-webfont.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'TitleGothic';
+  src: url('../fonts/fashertitle_bold-webfont.woff2') format('woff2'), url('../fonts/fashertitle_bold-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'TitleGothic';
+  src: url('../fonts/fashertitle_med-webfont.woff2') format('woff2'), url('../fonts/fashertitle_med-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Eurostile EXTD';
+  src: url('../fonts/EurostileExtendedBlack.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Eurostile EXTD';
+  src: url('../fonts/EurostileExtended.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
